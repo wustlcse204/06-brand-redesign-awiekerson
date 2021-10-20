@@ -2,6 +2,7 @@
 <html lang="en">
 <head> 
     <link rel="stylesheet" href="style.css">
+    <Link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
     <title> WUGO: Washington University Student Group Organizer</title>
 </head>
 <body> 
@@ -9,15 +10,41 @@
         <img src="washulogo.png" alt="WashU Logo">
         <p> Washington University Group Organizer</p>
         <div class="navigation-bar" >
-             <nav>
                 <a href="">Home</a>
                 <a href="">Events</a>
                 <a href="">Organizations</a>
                 <a href="">News</a>
                 <a href="">Forms</a>
-                <input type="search" placeholder="Search" name="searchbar">
-        </nav>
+                <i class="fas fa-search"></i>
+                <input type="search" placeholder="Search Events, Organizations, and News Articles..." name="searchbar">
             </div>  
         </div>
+
+    <div class="flex-container"> 
+        <div class="left-column"> 
+            <h1> Sign In</h1>
+            <div class="form">
+            <form> 
+                <img src="signin.png" alt="signin">
+                <div class="usernametextbox"> 
+                <i class="fas fa-envelope"></i>
+                <input type="text" placeholder="Username" id="username" required> <br>
+             </div>
+             <div class="passwordtextbox"> 
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Password" id="password" required> <br>
+            </div>
+            <br> 
+                <input type="submit" value="Login" class="submit">
+                <a href="">Forgot Your Password?</a>
+            </form>
+        </div>
+        <h1 class="Organization">Organizations</h1>
+
+        </div>
+        <div class="sidebar">
+            <img src="washustudents.jpeg" Alt="students">
+        </div>
+    </div>
 </body>
 </html>
