@@ -1,31 +1,36 @@
 <!DOCTYPE html> 
 <html lang="en">
 <head> 
+    
     <link rel="stylesheet" href="style.css">
     <Link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+      <link href="https://fonts.googleapis.com/css?family=Cardo:400,700Oswald" rel="stylesheet">
     <title> WUGO: Washington University Student Group Organizer</title>
 </head>
 <body> 
-    <div class="header-bar"> 
-        <img src="washulogo.png" alt="WashU Logo">
-        <p> Washington University Group Organizer</p>
-        <div class="navigation-bar" >
-                <a href="">Home</a>
-                <a href="">Events</a>
-                <a href="">Organizations</a>
-                <a href="">News</a>
-                <a href="">Forms</a>
-                <i class="fas fa-search"></i>
-                <input type="search" placeholder="Search Events, Organizations, and News Articles..." name="searchbar">
-            </div>  
+    <div class="flex-container-header">
+        <div class="left">
+             <h1>Washington University Group Organizer</h1>
         </div>
+        <div class="middle">
+            <a href="">Home</a>
+            <a href="">Events</a>
+            <a href="">Organizations</a>
+            <a href="">News</a>
+            <a href="">Forms</a>
+        </div>
+        <div class="right"> 
+            <i class="fas fa-search"></i>
+                <input type="search" placeholder="Search Events, Organizations, and News Articles..." name="searchbar">
+        </div>
+   
+    </div>
 
     <div class="flex-container"> 
         <div class="left-column"> 
-            <h1> Sign In</h1>
             <div class="form">
             <form> 
-                <img src="signin.png" alt="signin">
+                <img src="washulogo.png" alt="WashU Logo">
                 <div class="usernametextbox"> 
                 <i class="fas fa-envelope"></i>
                 <input type="text" placeholder="Username" id="username" required> <br>
@@ -39,12 +44,51 @@
                 <a href="">Forgot Your Password?</a>
             </form>
         </div>
-        <h1 class="Organization">Organizations</h1>
-
         </div>
         <div class="sidebar">
             <img src="washustudents.jpeg" Alt="students">
         </div>
     </div>
+
+    <div class="flex-container-involvement">
+        <div class="find-organizations">
+                <h1>Find Organizations</h1>
+        </div>
+        <div class="attend-events">
+            <h1>Attend Events</h1>
+        </div>
+        <div class="track-involvement"> 
+            <h1>Track Involvement</h1>
+        </div>
+    </div>
+
+    <div class="organizations">
+       <div class="organization-one">
+            <p> Organization 1</p>
+       </div>
+       <div class="organization-two">
+           <p> Organization 2</p>
+       </div>
+       <div class="organization-three"> 
+        <p> Organization 3</p>
+       </div>
+       <div class="organization-four">
+        <p> Organization 4</p>
+       </div>
+       <div class="organization-five"> 
+        <p> Organization 5</p>
+       </div>
+       <div class="organization-six"> 
+        <p> Organization 6</p>
+    </div>
+    </div>
+        <div class="events"> 
+            <div class="public-events">
+                    <p> events </p>
+            </div>
+            <div class="news"> 
+                <p> news</p>
+            </div>
+        </div>
 </body>
 </html>
