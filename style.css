@@ -112,7 +112,6 @@ body {
 
 .form input {
     margin-top: 15px;
-    text-align:left;
     border: none;
     margin: auto;
 }
@@ -138,6 +137,10 @@ body {
     background-color: rgb(165, 20, 23);
     color: white;
     border: none;
+}
+
+.login {
+    text-align: center;
 }
 
 .usernametextbox {
@@ -186,13 +189,27 @@ body {
 
 .flex-container-involvement {
     display: flex;
+    margin-top: 20px;
+}
+
+.flex-container-involvement img {
+    margin-top: 30px;
+}
+
+.flex-container-involvement p {
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .find-organizations {
     flex: 33%;
     background-color: white;
+    height: 300px;
+    width: 200px;
     margin: 5px;
     text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
 }
 
 .find-organizations h1 {
@@ -224,6 +241,8 @@ body {
     background-color: white;
     margin: 5px;
     text-align: center;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .track-involvement img {
@@ -242,54 +261,140 @@ body {
     background-color: white;
     margin: 5px;
     text-align: center;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.organization-label {
+    text-align: left;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.organization-label h1 {
+    text-decoration: underline;
+    display: inline;
+    margin-left: 15px;
+}
+
+.view-all{
+    float: right;
+    text-decoration: none;
+    background-color:rgb(165, 20, 23);
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 10px;
+}
+
+
+.organization-label a {
+    color: white;
+}
+
+.view-all a {
+    text-decoration: none;
+    color: white;
+    display: inline;
+}
+
 
 .organizations {
     display: flex;
     margin-left: 5px;
     margin-right: 5px;
+    width: 1300px;
+    margin-left: 50px;
+    overflow-x: auto;
+}
+
+.organizations h1 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.organizations img {
+    height: 60px;
+    width: 60px;
 }
 
 .organization-one {
-    flex: 15%;
-    border: solid;
-    margin-left: 5px;
-    margin-right: 5px;
+    background-color: white;
+    margin: 5px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 200px;
+    width: 200px;
 }
 
 .organization-two {
-    flex: 15%;
-    border: solid;
-    margin-left: 5px;
-    margin-right: 5px;
+    background-color: white;
+    margin: 5px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 200px;
+    width: 200px;
 }
 
 .organization-three {
-    flex: 15%;
-    border: solid;
-    margin-left: 5px;
-    margin-right: 5px;
+    background-color: white;
+    margin: 5px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 200px;
+    width: 200px;
 }
 
 .organization-four {
-    flex: 15%;
-    border: solid;
-    margin-left: 5px;
-    margin-right: 5px;
+    background-color: white;
+    margin: 5px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 200px;
+    width: 200px;
 }
 
 .organization-five {
-    flex: 15%;
-    border: solid;
-    margin-left: 5px;
-    margin-right: 5px;
+    background-color: white;
+    margin: 5px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 200px;
+    width: 200px;
 }
 
 .organization-six {
-    flex: 15%;
-    border: solid;
-    margin-left: 5px;
-    margin-right: 5px;
+    background-color: white;
+    margin: 5px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 200px;
+    width: 200px;
+}
+
+.organization-seven {
+    background-color: white;
+    margin: 5px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 200px;
+    width: 200px;
+}
+
+.organization-eight {
+    background-color: white;
+    margin: 5px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 200px;
+    width: 200px;
 }
 
 .events {
