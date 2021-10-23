@@ -66,6 +66,8 @@ body {
     vertical-align: middle;
 }
 
+
+
 .middle li {
     text-decoration: none;
     display: inline;
@@ -104,6 +106,8 @@ body {
 .sidebar {
     flex: 66%;
     margin-top: 50px;
+    display: block;
+    margin: auto;
 }
 
 .form p {
@@ -140,9 +144,14 @@ body {
     height:30px;
     background-color: rgb(165, 20, 23);
     color: white;
+    box-shadow: 0 3px 6px 0 rgba(33, 33, 33, 0.2), 0 6px 20px 0 rgba(33, 33, 33, 0.19);
     border: none;
+    transition-duration: 0.3s;
 }
 
+.submit:hover {
+    box-shadow: 0 4px 11px rgba(0,0,0,.5);
+}
 .login {
     text-align: center;
 }
@@ -158,12 +167,21 @@ body {
     width: 85%;
     height: 90%;
     background-color: #f4f4f4;
+    transition-duration: 0.5s;
 }
 
+.usernametextbox:hover {
+    box-shadow: 0 4px 11px rgba(0,0,0,.5);
+}
+
+.passwordtextbox:hover {
+    box-shadow: 0 4px 11px rgba(0,0,0,.5);
+}
 .passwordtextbox input {
     width: 85%;
     height: 90%;
     background-color: #f4f4f4;
+    transition-duration: 0.5s;
 }
 
 .passwordtextbox {
@@ -183,6 +201,7 @@ body {
     color: black;
     font-size: 10px;
     float: right;
+    transition-duration: 03s;
 }
 
 .sidebar img {
@@ -253,7 +272,12 @@ body {
     margin: 5px;
     text-align: center;
     margin: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.3s;
+    box-shadow: 0 3px 6px 0 rgba(33, 33, 33, 0.2), 0 6px 20px 0 rgba(33, 33, 33, 0.19);
+}
+
+.attend-events:hover {
+    box-shadow: 0 4px 11px rgba(0,0,0,.5);
 }
 
 .track-involvement img {
@@ -262,6 +286,9 @@ body {
     background-color: white;
 }
 
+.track-involvement:hover {
+    box-shadow: 0 4px 11px rgba(0,0,0,.5);
+}
 .track-involvement h1 {
     text-decoration: underline;
     color: rgb(165, 20, 23);
@@ -269,11 +296,12 @@ body {
 }
 .track-involvement{
     flex:33%;
+    transition-duration: 0.3s;
     background-color: white;
     margin: 5px;
     text-align: center;
     margin: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 3px 6px 0 rgba(33, 33, 33, 0.2), 0 6px 20px 0 rgba(33, 33, 33, 0.19);
 }
 
 .organization-label {
@@ -292,8 +320,9 @@ body {
     text-decoration: none;
     background-color:rgb(165, 20, 23);
     padding: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 3px 6px 0 rgba(33, 33, 33, 0.2), 0 6px 20px 0 rgba(33, 33, 33, 0.19);
     margin-right: 10px;
+    transition-duration: 0.3s;
 }
 
 
@@ -304,8 +333,18 @@ body {
 .view-all a {
     text-decoration: none;
     color: white;
+    box-shadow: 0 3px 6px 0 rgba(33, 33, 33, 0.2), 0 6px 20px 0 rgba(33, 33, 33, 0.19);
     display: inline;
 }
+
+.view-all:hover {
+    box-shadow: 0 4px 11px rgba(0,0,0,.5);
+}
+
+.organizations img {
+    border-radius: 50%;
+}
+
 
 
 .organizations {
@@ -335,78 +374,125 @@ body {
     background-color: white;
     margin: 5px;
     text-align: center;
+    transition-duration: 0.3s;
     margin: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 3px 6px 0 rgba(33, 33, 33, 0.2), 0 6px 20px 0 rgba(33, 33, 33, 0.19);
     height: 200px;
     width: 200px;
 }
+
+.organization-one:hover {
+    box-shadow: 0 4px 11px rgba(0,0,0,.5);
+}
+
 
 .organization-two {
     background-color: white;
     margin: 5px;
     text-align: center;
     margin: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 3px 6px 0 rgba(33, 33, 33, 0.2), 0 6px 20px 0 rgba(33, 33, 33, 0.19);
     height: 200px;
+    transition-duration: 0.3s;
     width: 200px;
 }
 
+.organization-two p {
+    margin-bottom: 40px;
+}
+
+.organization-five p {
+    margin-bottom: 38px;
+}
+
+.organization-eight p {
+    margin-bottom: 38px;
+}
+
+.organization-two:hover {
+    box-shadow: 0 4px 11px rgba(0,0,0,.5);
+}
 .organization-three {
     background-color: white;
     margin: 5px;
     text-align: center;
     margin: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.3s;
+    box-shadow: 0 3px 6px 0 rgba(33, 33, 33, 0.2), 0 6px 20px 0 rgba(33, 33, 33, 0.19);
     height: 200px;
     width: 200px;
 }
 
+.organization-three:hover {
+    box-shadow: 0 4px 11px rgba(0,0,0,.5);
+}
 .organization-four {
     background-color: white;
     margin: 5px;
     text-align: center;
     margin: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.3s;
+    box-shadow: 0 3px 6px 0 rgba(33, 33, 33, 0.2), 0 6px 20px 0 rgba(33, 33, 33, 0.19);
     height: 200px;
     width: 200px;
 }
 
+.organization-four:hover {
+    box-shadow: 0 4px 11px rgba(0,0,0,.5);
+}
 .organization-five {
     background-color: white;
     margin: 5px;
     text-align: center;
     margin: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.3s;
+    box-shadow: 0 3px 6px 0 rgba(33, 33, 33, 0.2), 0 6px 20px 0 rgba(33, 33, 33, 0.19);
     height: 200px;
     width: 200px;
 }
 
+.organization-five:hover {
+    box-shadow: 0 4px 11px rgba(0,0,0,.5);
+}
 .organization-six {
     background-color: white;
     margin: 5px;
+    transition-duration: 0.3s;
     text-align: center;
     margin: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 3px 6px 0 rgba(33, 33, 33, 0.2), 0 6px 20px 0 rgba(33, 33, 33, 0.19);
     height: 200px;
     width: 200px;
 }
 
+.organization-six:hover {
+    box-shadow: 0 4px 11px rgba(0,0,0,.5);
+}
 .organization-seven {
     background-color: white;
     margin: 5px;
     text-align: center;
     margin: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.3s;
+    box-shadow: 0 3px 6px 0 rgba(33, 33, 33, 0.2), 0 6px 20px 0 rgba(33, 33, 33, 0.19);
     height: 200px;
     width: 200px;
 }
 
+.organization-seven:hover {
+    box-shadow: 0 4px 11px rgba(0,0,0,.5);
+}
+
+.organization-eight:hover {
+    box-shadow: 0 4px 11px rgba(0,0,0,.5);
+}
 .organization-eight {
     background-color: white;
     margin: 5px;
+    transition-duration: 0.3s;
     text-align: center;
     margin: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 3px 6px 0 rgba(33, 33, 33, 0.2), 0 6px 20px 0 rgba(33, 33, 33, 0.19);
     height: 200px;
     width: 200px;
 }
@@ -416,15 +502,139 @@ body {
 }
 
 .news {
-    flex: 50%;
+    flex: 60%;
     margin: 5px;
     background-color: white;
+}
+
+.events-label {
+    margin-left: 10px;
 }
 
 .public-events {
-    flex:50%;
-    background-color: white;
+    flex:40%;
     margin: 5px;
+    width: 300px;
+    text-align: center;
+    height: 800px;
+    overflow: auto;
 }
-/* green color:#426E3D red color:#a11d22*/
 
+.labels {
+    display: flex;
+}
+
+.public-events-label {
+    flex: 40%;
+    text-align: left;
+}
+
+.latest-news-label {
+    flex: 60%;
+    text-align: left;
+}
+
+.events-container {
+    background-color: white;
+    width: 400px;
+    height: 350px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    display: inline-block;
+    box-shadow: 0 3px 6px 0 rgba(33, 33, 33, 0.2), 0 6px 20px 0 rgba(33, 33, 33, 0.19);
+}
+
+.events-container:hover {
+    box-shadow: 0 4px 11px rgba(0,0,0,.5);
+}
+
+.public-events i {
+display: inline;
+margin-left: 10px;
+}
+
+.public-events p {
+    display: inline;
+    margin-left: 5px;
+}
+
+.events-container img {
+    width: 100%;
+}
+
+.public-events img {
+    height: 200px;
+}
+
+.public-events h2 {
+    font-size:15px;
+    margin-left: 10px;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgb(165, 20, 23);
+    left: 0px;
+    right: 0px;
+}
+.footer p {
+    font-size: 5px;
+    color: rgb(165, 20, 23);
+}
+
+.links {
+    display: flex;
+}
+
+.left-links {
+    flex: 33%;
+    font-size: 14px;
+    margin-top: 5px;
+
+
+}
+
+.left-links a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.middle-links {
+    flex: 33%;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.middle-links a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.right-links {
+    flex: 33%;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.right-links a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.right-links i {
+    display: inline;
+}
+
+.copyright {
+    text-align: right;
+    margin-top: 37px;
+}
+
+
+.right-links p {
+    display: inline;
+    margin-right: 10px;
+}
