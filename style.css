@@ -24,6 +24,18 @@ body {
     border-width: thin;
 }
 
+
+.wugo {
+    margin-left: 25px;
+}
+
+.wugo h1 {
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 13px;
+    color: white;
+    vertical-align: middle;
+}
 .form h1 {
     font-size: 27px;
 }
@@ -56,6 +68,7 @@ body {
 
 .middle {
     flex: 37%;
+    margin-top: 7px;
 }
 
 .middle a {
@@ -499,13 +512,31 @@ body {
 
 .events {
     display:flex;
+    margin-bottom: 30px;
 }
 
 .news {
     flex: 60%;
     margin: 5px;
-    background-color: white;
+    text-align: center;
+    height: 800px;
+    overflow: auto;
 }
+
+.news-container {
+    display: inline-block;
+    background-color: white;
+    width: 650px;
+    height: 250px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 6px 0 rgba(33, 33, 33, 0.2), 0 6px 20px 0 rgba(33, 33, 33, 0.19);
+
+}
+
+.news-container:hover {
+    box-shadow: 0 4px 11px rgba(0,0,0,.5);
+}
+
 
 .events-label {
     margin-left: 10px;
@@ -637,4 +668,89 @@ margin-left: 10px;
 .right-links p {
     display: inline;
     margin-right: 10px;
+}
+
+.new-flex-container {
+    display: flex;
+}
+
+.column-one {
+    flex: 30%;
+}
+
+.column-one img {
+    height: 250px;
+    width: 250px;
+}
+
+.column-two p {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.column-two h2 {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.column-two {
+    flex: 70;
+    text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+
+    
+    .left-column {
+        display: none;
+    }
+    .sidebar {
+        display: inline-block;
+    }
+    .flex-container {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .flex-container-involvement {
+        width: 100%;
+    }
+
+    .middle {
+        font-size: 5px;
+        margin-top: 13px;
+    }
+    .right {
+        display: none;
+    }
+
+    .latest-news-label {
+        display: none;
+    }
+    .news {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .wugo {
+        display: none;
+    }
+
+    .middle {
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .left {
+        display: none;
+        left: 0px;
+    }
+
+    .picture {
+        display: none;
+    }
 }
