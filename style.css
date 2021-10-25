@@ -740,8 +740,6 @@ margin-left: 10px;
 }
 
 
-
-
 @media only screen and (max-width: 480px) {
     .left {
         display: none;
@@ -793,6 +791,10 @@ margin-left: 10px;
 
     .links p {
         font-size: 10px;
+    }
+
+    .events-container {
+        height: 390px;
     }
 }
 
